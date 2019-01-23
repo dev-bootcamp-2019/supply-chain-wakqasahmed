@@ -56,7 +56,7 @@ contract SupplyChain {
 
     modifier verifyCaller (address _address) {require (msg.sender == _address, "Ah! looks like you are an imposter"); _;}
 
-    modifier paidEnough(uint _price) {require(msg.value >= _price, "Alas! the item would have been yours, had you been paid enough amount"); _;}
+    modifier paidEnough(uint _price) {require(msg.value >= _price, "Ah! the item would have been yours, had you been paid enough amount"); _;}
     modifier checkValue(uint _sku) {
         //refund them after pay for item (why it is before, _ checks for logic before func)
         _;
