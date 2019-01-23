@@ -6,7 +6,7 @@ Clone this repo to your local machine.
 
 The contract contains a framework and comments to implement the contract. Follow the comments outlined in SupplyChain.sol (in the contracts directory) to implement the contract. We have written a set of tests (in javascript) to determine if you implement the contract correctly. As an additional challenge, try writing some Solidity tests in TestSupplyChain.sol.
 
-https://travis-ci.org/dev-bootcamp-2019/supply-chain-wakqashmed
+https://travis-ci.org/dev-bootcamp-2019/supply-chain-wakqasahmed
 
 To test your implementation start your development blockchain by running `$ truffle develop` from the terminal in the project directory. From the truffle console, compile and migrate the contracts by running `compile` and `migrate`. You can run the pre-written tests by running `test`.
 
